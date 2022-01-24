@@ -8,7 +8,14 @@ solution: https://play.golang.org/p/bAQxcEuK8O
 ### Hands-on exercise #2
 
 Using the following operators, write expressions and assign their values to variables:
-g. == h. <= i. >= j. != k. < l. >
+
+    g. ==
+    h. <=
+    i. >=
+    j. !=
+    k. <
+    l. >
+
 Now print each of the variables.
 solution: https://play.golang.org/p/76R-poSzaY
 
