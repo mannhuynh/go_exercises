@@ -8,4 +8,6 @@ func Ex8(){
 	case true: fmt.Println("This is true")
 	default: fmt.Println("This is default")
 	}
+	fmt.Println("-------------")
+
 }
