@@ -7,6 +7,7 @@ import (
 	"myapp/ex4"
 	"myapp/ex5"
 	"myapp/ex6"
+	"myapp/ex7"
 )
 
 func main() {
@@ -16,4 +17,5 @@ func main() {
 	ex4.Ex4()
 	ex5.Ex5()
 	ex6.Ex6()
+	ex7.Ex7()
 }

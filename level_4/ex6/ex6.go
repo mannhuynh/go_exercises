@@ -22,5 +22,5 @@ func Ex6() {
 	fmt.Println(x)
 	fmt.Println(len(x))
 	fmt.Println(cap(x))
-
+	fmt.Println("--------------")
 }
