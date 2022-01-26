@@ -40,7 +40,8 @@ Have it print out the years you have been alive. solution: https://play.golang.o
 Print out the remainder (modulus) which is found for each number between 10 and 100 when it is divided by 4.
 solution: https://play.golang.org/p/ohfJOW9euy
 
-Hands-on exercise #6
+### Hands-on exercise #6
+
 Create a program that shows the “`if statement`” in action.
 solution: https://play.golang.org/p/DpZ_FLfn5s
 
