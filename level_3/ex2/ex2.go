@@ -10,4 +10,5 @@ func Ex2(){
 			fmt.Println()
 		}
 	}
+	fmt.Println("-----------")
 }
