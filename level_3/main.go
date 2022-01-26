@@ -2,6 +2,7 @@ package main
 
 import (
 	"myapp/ex1"
+	"myapp/ex10"
 	"myapp/ex2"
 	"myapp/ex3"
 	"myapp/ex4"
@@ -22,4 +23,5 @@ func main(){
 	ex7.Ex7()
 	ex8.Ex8()
 	ex9.Ex9()
+	ex10.Ex10()
 }
