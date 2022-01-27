@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"myapp/ex1"
 	"myapp/ex2"
+	"myapp/ex3"
 )
 
 func main() {
@@ -11,5 +12,6 @@ func main() {
 	fmt.Println("---------")
 	ex2.Ex2()
 	fmt.Println("---------")
-
+	ex3.Ex3()
+	fmt.Println("---------")
 }
