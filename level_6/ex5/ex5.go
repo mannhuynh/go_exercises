@@ -26,7 +26,7 @@ func (c circle) area() float64 {
 }
 
 // create a type SHAPE that defines an interface as anything that has the AREA method
-// Need to put the float64 to area() method.
+// Need to put the float64 to area() method because area() return float64
 type shape interface {
 	area() float64
 }
