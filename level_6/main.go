@@ -9,6 +9,7 @@ import (
 	"myapp/ex5"
 	"myapp/ex6"
 	"myapp/ex7"
+	"myapp/ex8"
 )
 
 func main() {
@@ -25,5 +26,7 @@ func main() {
 	ex6.Ex6()
 	fmt.Println("----------------")
 	ex7.Ex7()
+	fmt.Println("----------------")
+	ex8.Ex8()
 	fmt.Println("----------------")
 }
