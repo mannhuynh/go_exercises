@@ -33,4 +33,14 @@ func Ex2() {
 		fmt.Println(err)
 	}
 	fmt.Println(people)
+	fmt.Println()
+
+	// Loop through people, a slice of type person
+	for i, person := range people {
+		fmt.Print("Person number ", i)
+		fmt.Println(" with identity of", person.First, person.Last, person.Age, "has said:")
+		for _, say := range person.Sayings {
+			fmt.Println("\t", say)
+		}
+	}
 }
