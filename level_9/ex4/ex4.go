@@ -13,7 +13,7 @@ func Ex4() {
 	wg.Add(2)
 
 	go func() {
-		for i := 0; i < 5; i++ {
+		for i := 0; i < 3; i++ {
 			mux.Lock()
 			v1 := counter
 			v1++
@@ -25,7 +25,7 @@ func Ex4() {
 	}()
 
 	go func() {
-		for j := 0; j < 10; j++ {
+		for j := 0; j < 4; j++ {
 			mux.Lock()
 			v2 := counter
 			v2++
